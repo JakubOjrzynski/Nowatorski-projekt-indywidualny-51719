@@ -1,0 +1,8 @@
+name: PR
+
+on:
+  pull_request:
+
+jobs:
+  test:
+    uses: ./.github/workflows/reusable-build.yml
